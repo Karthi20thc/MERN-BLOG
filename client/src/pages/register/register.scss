@@ -1,0 +1,86 @@
+.register {
+	// width: 30%;
+	// border: 0.5px solid grey;
+	// margin-top: 20vh;
+	// padding: 25px;
+	// position: relative;
+
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+		url(https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png);
+	background-size: cover;
+
+	.logintitle {
+		font-size: 25px;
+		color: #555;
+		position: absolute;
+		left: 50%;
+		top: 40px;
+		background-color: rgb(255, 148, 166);
+		color: white;
+		border-radius: 5px;
+		transform: translateX(-50%);
+		padding: 5px;
+	}
+
+	.loginform {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+
+		.loginbutton {
+			align-self: center;
+			padding: 8px;
+			width: 50%;
+			font-size: 18px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			cursor: pointer;
+			background-color: rgb(255, 148, 166);
+			color: white;
+			border: none;
+			&:hover {
+				background-color: rgb(255, 91, 118);
+			}
+		}
+
+		> label {
+			font-size: 20px;
+			font-weight: 600;
+			color: grey;
+		}
+
+		> input {
+			padding: 10px;
+			font-size: 17px;
+
+			&::placeholder {
+				font-style: italic;
+			}
+
+			&:focus {
+				outline: none;
+			}
+		}
+	}
+	.loginregisterbutton {
+		padding: 8px;
+		width: 10%;
+		// font-size: 18px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		cursor: pointer;
+		background-color: teal;
+		align-self: center;
+		color: white;
+		border: none;
+
+		&:hover {
+			background-color: rgb(1, 78, 78);
+		}
+	}
+}

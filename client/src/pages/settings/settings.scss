@@ -1,0 +1,91 @@
+.settings {
+	display: flex;
+
+	.settingswrapper {
+		flex: 9;
+		padding: 20px;
+
+		//1a
+		.settingstitle {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			.settingstitleupdate {
+				font-size: 25px;
+				font-weight: 500;
+				margin-bottom: 20px;
+			}
+			.settingstitledelete {
+				color: tomato;
+				font-style: 20px;
+				font-weight: 500;
+				cursor: pointer;
+			}
+		}
+		//1b
+		.settingsform {
+			display: flex;
+			flex-direction: column;
+
+			> label {
+				font-size: 20px;
+				margin-top: 10px;
+				align-self: center;
+			}
+
+			> input {
+				color: gray;
+				align-self: center;
+				width: 50%;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				height: 30px;
+				border: none;
+				padding: 5px;
+				border: 1px solid lightgray;
+			}
+
+			.settingssubmitbutton {
+				align-self: center;
+				padding: 5px;
+				margin-top: 20px;
+				cursor: pointer;
+				width: 50%;
+				border: none;
+				border-radius: 10px;
+				color: rgb(41, 41, 41);
+				background-color: pink;
+
+				&:hover {
+					background-color: rgb(255, 148, 166);
+				}
+			}
+
+			.settingspp {
+				display: flex;
+				align-self: center;
+				align-items: center;
+				gap: 15px;
+				margin-top: 15px;
+				margin-bottom: 15px;
+
+				> img {
+					height: 70px;
+					width: 70px;
+					border-radius: 50%;
+					object-fit: cover;
+				}
+
+				.iconcon {
+					display: flex;
+					align-items: center;
+					gap: 10px;
+					cursor: pointer;
+					border: 1px solid lightgray;
+					padding: 5px;
+				}
+			}
+		}
+	}
+}

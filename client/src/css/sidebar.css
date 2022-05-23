@@ -1,0 +1,87 @@
+.sidebar {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  border: 0.5px dotted;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #e6a3a5;
+  color: #2e2e2e;
+  border-radius: 10px;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar .sidebaritem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sidebar .sidebaritem .sidebarsocial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.sidebar .sidebaritem .desc {
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+
+.sidebar .sidebaritem .sidebartitle {
+  color: white;
+  border-bottom: 0.5px solid;
+  padding: 0 15px;
+  border-radius: 5px;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.sidebar .sidebaritem .sidebarproimg {
+  width: 80%;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sidebar .sidebaritem .sidebarul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 9px;
+}
+
+.sidebar .sidebaritem .sidebarul .sidebarlist {
+  font-size: 18px;
+  margin-bottom: 10px;
+}

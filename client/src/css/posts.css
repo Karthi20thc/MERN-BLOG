@@ -1,0 +1,11 @@
+.posts {
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9;
+  margin: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}

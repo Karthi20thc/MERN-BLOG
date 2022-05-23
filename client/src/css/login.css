@@ -1,0 +1,116 @@
+.login {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url(https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png);
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png);
+  background-size: cover;
+}
+
+.login .logintitle {
+  font-size: 25px;
+  color: #555;
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  background-color: #ff94a6;
+  color: white;
+  border-radius: 5px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 5px;
+}
+
+.login .loginform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+
+.login .loginform .loginbutton {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 8px;
+  width: 50%;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  background-color: #ff94a6;
+  color: white;
+  border: none;
+}
+
+.login .loginform .loginbutton:hover {
+  background-color: #ff5b76;
+}
+
+.login .loginform .loginbutton:disabled {
+  cursor: not-allowed;
+}
+
+.login .loginform > label {
+  font-size: 20px;
+  font-weight: 600;
+  color: grey;
+}
+
+.login .loginform > input {
+  padding: 10px;
+  font-size: 17px;
+}
+
+.login .loginform > input::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.login .loginform > input:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.login .loginform > input::-ms-input-placeholder {
+  font-style: italic;
+}
+
+.login .loginform > input::placeholder {
+  font-style: italic;
+}
+
+.login .loginform > input:focus {
+  outline: none;
+}
+
+.login .loginregisterbutton {
+  padding: 8px;
+  width: 10%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  background-color: teal;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+  border: none;
+}
+
+.login .loginregisterbutton:hover {
+  background-color: #014e4e;
+}

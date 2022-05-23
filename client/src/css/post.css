@@ -1,0 +1,73 @@
+.post {
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.post .postimg {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+.post .postinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.post .postinfo .postcategories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  color: #333333;
+  font-size: 17px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.post .postinfo .posttitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: navy;
+  margin-bottom: 10px;
+}
+
+.post .postinfo .posttime {
+  font-size: 13px;
+  font-style: italic;
+  color: grey;
+  margin-bottom: 14px;
+}
+
+.post .postdescription {
+  text-align: center;
+  font-size: 18px;
+  color: #585858;
+  line-height: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  /* autoprefixer: off */
+}

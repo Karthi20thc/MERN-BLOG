@@ -1,0 +1,150 @@
+.topbar {
+  width: 100%;
+  border: 0px dotted;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0px dotted;
+  background-color: pink;
+  color: #535353;
+  padding: 10px 0;
+}
+
+.topbar .topleft {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  border: 0px dotted;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+  margin-left: 10px;
+}
+
+.topbar .topleft .topbaricon {
+  font-size: 21px;
+}
+
+.topbar .topcenter {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+  border: 0px dotted;
+}
+
+.topbar .topcenter .toplist {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.topbar .topcenter .toplist .toplistitem {
+  padding: 5px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.topbar .topcenter .toplist .toplistitem:hover {
+  background-color: white;
+  color: #05783d;
+}
+
+.topbar .topright {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  border: 0px dotted;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 18px;
+  margin-right: 10px;
+}
+
+.topbar .topright .toplistitem {
+  padding: 5px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.topbar .topright .toplistitem:hover {
+  background-color: white;
+  color: #05783d;
+}
+
+.topbar .topright .logincon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 18px;
+}
+
+.topbar .topright .toplist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.topbar .topright .topbarimg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png);
+  height: 60vh;
+  background-size: cover;
+}
+
+.header .headertitles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.header .headertitles .headertitlebg {
+  font-size: 75px;
+  color: #4b4b4b;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.header .headertitles .headertitlesm {
+  width: 90%;
+  font-size: 17px;
+  position: absolute;
+  left: 50%;
+  top: 130px;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.header .headerblogimg {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
